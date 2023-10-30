@@ -15,4 +15,9 @@ void main() {
   // 값 삭제 (remove)
   korean.remove('가');
   print(korean); // [나, 다, 라, 마]
+
+  // forEach
+  korean.forEach((item) {
+    print(item);
+  });
 }
